@@ -1,0 +1,91 @@
+@import url("https://fonts.google.com/specimen/Inter");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+
+.divMain{
+    height: 100vh;
+    width: 100vw;
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divCard{
+    background:hsl(0, 0%, 12%);
+    height: 490px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 34px;
+    gap: 14px;
+}
+
+.divPhoto img{
+    height: 70px;
+    border-radius: 100%;
+}
+
+.divHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.divName p{
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.divAddress p{
+    font-size: 12px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+
+.divPara p{
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.divContainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.divButton{
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    height: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.divButton:hover{
+    color: hsl(0, 0%, 8%);
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+    
+}
+
+.divButton p{
+    font-size: 12px;
+    font-weight: 700;
+}
